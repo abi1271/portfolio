@@ -1,1 +1,1 @@
-alert("Hi there, it's Abi. Welcome to my page!")
+window.alert("Hi there, it's Abi. Welcome to my page!")
