@@ -54,11 +54,19 @@
   </div> 
   
   <div style="float:left; width:33.3%;">
-      <img id="tree" src= "treeoriginal.jpg"
+      <img src= "treeoriginal.jpg" id="tree" onmouseover="changeimage()" onmouseout="changeimageback()"
       alt="orginal image"
-      style="width:90%; height:300px; margin: 25px"
-      onmouseover= "treeedited.jpg"
-      onmouseout= "treeoriginal.jpg"/>
+      style="width:90%; height:300px; margin: 25px"/>
+  <!--document.getElementByID('tree').onmouseover= function{changeimage()}--!>
+
+  function changeimage(){
+  document.getElementByID('tree').src= "treeedited.jpg";
+  }
+                                                       
+  function changeimageback(){
+  document.getElementByID('tree').src= "treeoriginal.jpg";
+  }                                                    
+                                                   
   </div>
    
   <div style="float:left; width:33.3%;">
