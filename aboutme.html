@@ -2,8 +2,16 @@
 <html>
 <head>
   <script>
-    window.alert("Hi there, it's Abi. Welcome to my page!")
+    window.alert("Hi there, it's Abi. Welcome to my page!")                                                  
+  function changeimage() {
+    document.getElementByID('tree').src ="treeedited.jpg";
+  }
+                                                       
+  function changeimageback(){
+    document.getElementByID('tree').src= "treeoriginal.jpg";
+  }
   </script>
+  
   <title>About Abi</title>
     <link rel= "stylesheet"
           href= "<link href="https://fonts.googleapis.com/css?family=Pacifico">
@@ -52,15 +60,7 @@
        style="width:90%; height:300px; margin: 25px">
       </a>
   </div> 
-  
-  function changeimage(){
-  document.getElementByID('tree').src= "treeedited.jpg";
-  }
-                                                       
-  function changeimageback(){
-  document.getElementByID('tree').src= "treeoriginal.jpg";
-  }
-                                                         
+                                                           
   <div style="float:left; width:33.3%;">
       <img src= "treeoriginal.jpg" id="tree" onmouseover="changeimage()" onmouseout="changeimageback()"
       alt="orginal image"
