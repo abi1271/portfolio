@@ -1,1 +1,22 @@
+h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 48px;
+      line-height: 1.0em;                    
+}
 
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.3;                    
+}
+
+h3 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 18px;
+  line-height: 0.25em;                           
+}
+
+p {
+  font-family: 'Old Standard TT', serif;
+  font-size: 15px;
+}                    
