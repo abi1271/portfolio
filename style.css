@@ -31,3 +31,8 @@ p {
    height:300px;
    margin: 25px
 }      
+
+#profile img{
+   width:350px;
+   height:350px;
+}
