@@ -33,6 +33,11 @@ p {
 }      
 
 #profile img{
-   width:350px;
-   height:350px;
+  width:350px;
+  height:350px;
+}
+
+#tree{
+  float:left;
+  width:33.3%;
 }
