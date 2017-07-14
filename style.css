@@ -47,3 +47,9 @@ p {
   height:300px;
   margin: 25px;
 }
+
+#mermaidpara{
+  float:left;
+  width:33.3%;
+  height:300px;
+}
