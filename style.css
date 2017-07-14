@@ -41,3 +41,9 @@ p {
   float:left;
   width:33.3%;
 }
+
+#tree img{
+  width:90%;
+  height:300px;
+  margin: 25px;
+}
